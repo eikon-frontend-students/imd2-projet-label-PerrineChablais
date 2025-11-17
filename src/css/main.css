@@ -13,8 +13,7 @@ video {
   display: block;
 }
 
-
 body {
-  background: black;
-  color: white;
+  background: rgb(255, 36, 222);
+  color: rgb(255, 8, 8);
 }
