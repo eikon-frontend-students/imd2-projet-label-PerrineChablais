@@ -1,0 +1,35 @@
+body {
+  background-color: black;
+  font-family: "helvetica-neue-lt-pro", sans-serif;
+  font-weight: 700;
+  color: white;
+}
+
+.album {
+  width: 100%;
+  background-color: #000000;
+  position: relative;
+  margin-top: -80px;
+}
+
+.marquee {
+  display: flex;
+  width: max-content;
+  animation: scroll 30s linear infinite;
+}
+
+.marquee span {
+  font-size: 6rem;
+  color: #ffffff;
+  margin-right: 2rem;
+  white-space: nowrap;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
